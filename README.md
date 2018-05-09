@@ -6,7 +6,7 @@ Requires libusb-1.0.0-dev
 
 compile: `gcc libusb_hubctrl.c -lusb-1.0 -o libusb_hubctrl`
 
-Get status: `sudo ./libusb_hubctrl 1 05e3 0608 1 status` 
-Enable port power: `sudo ./libusb_hubctrl 1 05e3 0608 1 on` 
-Disable port power: `sudo ./libusb_hubctrl 1 05e3 0608 1 off` 
+* Get status: `sudo ./libusb_hubctrl 1 05e3 0608 1 status` 
+* Enable port power: `sudo ./libusb_hubctrl 1 05e3 0608 1 on` 
+* Disable port power: `sudo ./libusb_hubctrl 1 05e3 0608 1 off` 
 
